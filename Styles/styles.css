@@ -21,6 +21,7 @@ button:hover {
 .primary-color {
     color: #4E47FF;
 }
+
 .center-text {
     text-align: center;
 }
@@ -32,6 +33,7 @@ button:hover {
     border-radius: 4px;
     padding: 10px 20px;
 }
+
 .btn-title {
     display: block;
     margin-top: 10px;
@@ -150,7 +152,6 @@ main {
 /* User Feedback Section Styles  */
 .feedback {
     margin: 0 40px;
-    background-color: #dbdaef;
     border-radius: 6px;
     padding: 20px;
 }
@@ -218,7 +219,12 @@ main {
 
 /* Focus Section Styles */
 .Focus {
-    margin: 90px auto;
+    margin: 0 auto;
+    padding-bottom: 40px; 
+    max-width: 1080px;
+    background-color: #fdefef;
+    box-shadow: 0px 6px 50px 0 rgba(239, 203, 203, 0.06);
+    border-radius: 5px;
 }
 
 .FocusImage {
@@ -250,6 +256,7 @@ main {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
+    padding-top: 30px;
 }
 
 
@@ -260,12 +267,13 @@ main {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px ;
+    padding-left: 10px ;
     padding-right: 0px;
     gap: 40px;
     max-width: 1110px;
     margin: 0 30px;
 }
+
 .Left-side {
     width: 50%;
 }
@@ -276,8 +284,8 @@ main {
   margin-top: 20px;
   margin-bottom: 6px;
   font-weight: 500;
-  color: #333;
-  text-align: left; /* ⬅️ ensures label is left-aligned */
+  color: #333333;
+  text-align: left; 
 }
 
 
@@ -290,7 +298,8 @@ main {
     width: 80%;
     padding: 10px 20px;
     margin-bottom: 24px;
-    border: none;
+    border: none ;
+    box-shadow: 0px 6px 50px 0 rgba(0,0,0, 0.06);
 }
 
 
@@ -299,18 +308,19 @@ main {
     border-radius: 5px;
     background-color: #fdefef;
     color: #757575;
-    background-color: ;
     display: block;
     width: 80%;
     padding: 10px 20px;
     margin-bottom: 24px;
-    border: none;
+    border:none ;
+    box-shadow: 0px 6px 50px 0 rgba(0,0,0, 0.06);
 }
 
 .message-title {
     text-align: left;
     font-size: 90px;
     font-weight: 700;
+    padding-right: 80px;
 }
 
 .Message-btn {
@@ -329,3 +339,39 @@ main {
   background-color: #372fcf; 
   cursor: pointer;
 }
+
+/* Footer Styles  */
+
+.footer-container {
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.footernav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.footernav ul a {
+    text-decoration: none;
+}
+.footer-title {
+    text-align: center;
+    color: #4E47FF ;
+    font-size: 97px;
+    font-weight: 900;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.footer-subtitle {
+    text-align: center;
+    color: #8987A1;
+    padding-top: 0;
+}
+
