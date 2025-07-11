@@ -251,3 +251,81 @@ main {
     font-weight: bold;
     font-size: 40px;
 }
+
+
+/* Message Section Styles*/
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px ;
+    padding-right: 0px;
+    gap: 40px;
+    max-width: 1110px;
+    margin: 0 30px;
+}
+.Left-side {
+    width: 50%;
+}
+
+
+.message  form label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+  text-align: left; /* ⬅️ ensures label is left-aligned */
+}
+
+
+.message input[type="text"], .message input[type="email"],  .message textarea {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fdefef;
+    color: #757575;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+
+.message textarea {
+    height: 60px;
+    border-radius: 5px;
+    background-color: #fdefef;
+    color: #757575;
+    background-color: ;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.message-title {
+    text-align: left;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.Message-btn {
+    margin-top: 10px;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+
+.Message-btn:hover {
+  background-color: #372fcf; 
+  cursor: pointer;
+}
