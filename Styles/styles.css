@@ -6,8 +6,6 @@
   font-style: normal;
 }
 
-
-
 /* All Button Hover Styles */
 button:hover {
   background-color: #372fcf; 
@@ -184,7 +182,6 @@ main {
 }
 
 
-
 .ReviwerName {
     color: #757575;
     margin: 0;
@@ -207,7 +204,7 @@ main {
     padding: 30px ;
     box-shadow: 0px 6px 50px 0 rgba(0,0,0, 0.06);
     border-radius: 5px;
-    max-width: 1110px;
+    max-width: 1100px;
 }
 
 .feedback-title {
@@ -217,4 +214,40 @@ main {
     font-size: 38px;
     text-align: center;
     font-weight: bold;
+}
+
+/* Focus Section Styles */
+.Focus {
+    margin: 90px auto;
+}
+
+.FocusImage {
+    width: 840px;
+    height: 365px; 
+    background-image: url('../Assets/wc-big.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+
+.btn-focus {
+    display: block;
+    margin-top: 10px;
+    margin-bottom:30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+.focus-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
 }
