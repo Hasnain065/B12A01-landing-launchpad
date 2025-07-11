@@ -103,10 +103,11 @@ main {
     padding: 40px;
 }
 
-.action img {
+.actionImage {
+  background-image: url('../Assets/wc-mini.png');
   border-radius: 8px;
   height: 328px;
-  width: 40p3x; 
+  width: 430px; 
 }
 
 
