@@ -1,9 +1,23 @@
-/* Shared Styles */
+
+/* Normal Font  */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 
 /* All Button Hover Styles */
 button:hover {
   background-color: #372fcf; 
   cursor: pointer;
+}
+
+/* Shared Styles */
+
+.text-color{
+    color: #252432;
 }
 
 .primary-color {
@@ -31,14 +45,6 @@ button:hover {
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
-}
-
-
-/* Normal Font  */
-.raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 
@@ -80,4 +86,64 @@ nav ul li a {
     font-weight: 700;
     font-size: 54px;
     text-align: center;
+}
+
+/* Main Section Styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Action Part Styles */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.action img {
+  border-radius: 8px;
+  height: 328px;
+  width: 40p3x; 
+}
+
+
+/* User Banner  Styles*/
+
+.ActivUsersbanner {
+    margin: 0 40px;
+    background-color: #dbdaef;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.BannerUsers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40 0;
+}
+
+.ActivUserstitle {
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Total_user {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4E47FF;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.UserSubtitle {
+    margin: 0 40px;
+    padding-top: 0;
+    padding-bottom: 40px;
 }
