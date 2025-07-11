@@ -147,4 +147,74 @@ main {
     margin: 0 40px;
     padding-top: 0;
     padding-bottom: 40px;
+}.
+
+/* User Feedback Section Styles  */
+.feedback {
+    margin: 0 40px;
+    background-color: #dbdaef;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.starimg {
+    width: 24px;
+    height: 24px;
+    background-image: url('../Assets/icon-star.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.Feedbackbyimg {
+    width: 40px;
+    height: 40px;
+    background-image: url('../Assets/avatar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+.Feedbackby{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.ReviwerName {
+    color: #757575;
+    margin: 0;
+    padding: 0;
+}
+.ReviewDT {
+    color: #B3B3B3;
+    margin: 0;
+    padding: 0;
+}
+
+.feedbackcontainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center; 
+}
+
+.feedbackcards {
+    padding: 30px ;
+    box-shadow: 0px 6px 50px 0 rgba(0,0,0, 0.06);
+    border-radius: 5px;
+    max-width: 1110px;
+}
+
+.feedback-title {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
 }
